@@ -21,8 +21,8 @@ clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 text_encoder = AutoModel.from_pretrained("meta-llama/Llama-2-7b-hf")
 text_tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
 
-generator_model = AutoModelForCausalLM.from_pretrained("tiiuae/falcon-7b-instruct")
-generator_tokenizer = AutoTokenizer.from_pretrained("tiiuae/falcon-7b-instruct")
+generator_model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf")
+generator_tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
 
 # -----------------------------
 # MM-CAD Classifier Model
